@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Happy Birthday</string>
+    <string name="letterA">a</string>
+    <string name="letterB">b</string>
+    <string name="letterD">d</string>
+    <string name="letterH">h</string>
+    <string name="letterI">i</string>
+    <string name="letterP">p</string>
+    <string name="letterR">r</string>
+    <string name="letterT">t</string>
+    <string name="letterY">y</string>
+    <string name="space"> </string>
+    <string name="exclamationMark">!</string>
 </resources>

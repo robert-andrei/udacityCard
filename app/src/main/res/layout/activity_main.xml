@@ -16,210 +16,96 @@
         android:paddingBottom="16dp">
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:text="H"
-            android:textSize="24sp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#68EFAD"/>
+            style="@style/letter"
+            android:text="@string/letterH"
+            android:layout_marginLeft="@dimen/marginLetterMarginStart"
+            android:layout_marginStart="@dimen/marginLetterMarginStart"
+            android:background="@color/colorOddLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="4dp"
-            android:paddingBottom="4dp"
-            android:text="A"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#7CB342"/>
+            style="@style/letter"
+            android:layout_marginTop="@dimen/middleLetterMarginTop"
+            android:paddingBottom="@dimen/middleLetterPaddingBottom"
+            android:text="@string/letterA"
+            android:background="@color/colorEvenLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:text="P"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#68EFAD"/>
+            style="@style/letter"
+            android:text="@string/letterP"
+            android:background="@color/colorOddLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="4dp"
-            android:paddingBottom="2dp"
-            android:text="P"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#7CB342"/>
+            style="@style/letter"
+            android:layout_marginTop="@dimen/middleLetterMarginTop"
+            android:paddingBottom="@dimen/middleLetterPaddingBottom"
+            android:text="@string/letterP"
+            android:background="@color/colorEvenLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:text="Y"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#68EFAD"/>
+            style="@style/letter"
+            android:text="@string/letterY"
+            android:background="@color/colorOddLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:text=" "
-            android:textSize="24sp"/>
+            style="@style/letter"
+            android:text="@string/space"
+            android:layout_marginRight="@dimen/nullMargin"
+            android:layout_marginEnd="@dimen/nullMargin"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:text="B"
-            android:textSize="24sp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#7CB342"/>
+            style="@style/letter"
+            android:text="@string/letterB"
+            android:layout_marginLeft="@dimen/marginLetterMarginStart"
+            android:layout_marginStart="@dimen/marginLetterMarginStart"
+            android:background="@color/colorEvenLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="4dp"
-            android:paddingBottom="2dp"
-            android:text="I"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#68EFAD"/>
+            style="@style/letter"
+            android:layout_marginTop="@dimen/middleLetterMarginTop"
+            android:paddingBottom="@dimen/middleLetterPaddingBottom"
+            android:text="@string/letterI"
+            android:background="@color/colorOddLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:text="R"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#7CB342"/>
+            style="@style/letter"
+            android:text="@string/letterR"
+            android:background="@color/colorEvenLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="4dp"
-            android:paddingBottom="2dp"
-            android:text="T"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#68EFAD"/>
+            style="@style/letter"
+            android:layout_marginTop="@dimen/middleLetterMarginTop"
+            android:paddingBottom="@dimen/middleLetterPaddingBottom"
+            android:text="@string/letterT"
+            android:background="@color/colorOddLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:text="H"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#7CB342"/>
+            style="@style/letter"
+            android:text="@string/letterH"
+            android:background="@color/colorEvenLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="4dp"
-            android:paddingBottom="2dp"
-            android:text="D"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#68EFAD"/>
+            style="@style/letter"
+            android:layout_marginTop="@dimen/middleLetterMarginTop"
+            android:paddingBottom="@dimen/middleLetterPaddingBottom"
+            android:text="@string/letterD"
+            android:background="@color/colorOddLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:text="A"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#7CB342"/>
+            style="@style/letter"
+            android:text="@string/letterA"
+            android:background="@color/colorEvenLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="4dp"
-            android:paddingBottom="2dp"
-            android:text="Y"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#68EFAD"/>
+            style="@style/letter"
+            android:layout_marginTop="@dimen/middleLetterMarginTop"
+            android:paddingBottom="@dimen/middleLetterPaddingBottom"
+            android:text="@string/letterY"
+            android:background="@color/colorOddLetterBackground"/>
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:text="!"
-            android:textSize="24sp"
-            android:layout_marginRight="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="serif-monospace"
-            android:textStyle="bold"
-            android:background="#7CB342"/>
+            style="@style/letter"
+            android:text="@string/exclamationMark"
+            android:background="@color/colorEvenLetterBackground"/>
 
     </LinearLayout>
 
